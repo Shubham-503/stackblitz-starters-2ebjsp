@@ -6,6 +6,7 @@ const app = express();
 const port = 3010;
 
 app.use(express.static('static'));
+app.use(cors())
 
 let stocks = [
   {
